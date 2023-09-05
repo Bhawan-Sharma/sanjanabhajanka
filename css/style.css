@@ -9899,7 +9899,7 @@ h5,
 
 @media only screen and (max-width: 600px) {
   .photography-entry {
-    height: 510px;
+    height: 264px;
     display: block;
     z-index: 0;
     position: relative;
@@ -10380,8 +10380,8 @@ h5,
   color: #b3b3b3;
 }
 .blog-entry .text-2 h3 {
-  font-size: 22px;
-  font-weight: 700;
+  font-size: 19px;
+  font-weight: 600;
 }
 .blog-entry .author .img {
   width: 60px;
@@ -11109,5 +11109,25 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .hero-wrap .text {
+    font-size: 14px !important;
+  }
+  .col-md-3 {
+    width: 50%;
+  }
+  a.photography-entry.img.d-flex.justify-content-center.align-items-center {
+    width: 98%;
+  }
+
+  .ftco-section {
+    padding: 1em 0.6em !important;
+  }
+  .blog-entry .text-2 h3 {
+    font-size: 17px;
+    font-weight: 500;
   }
 }
